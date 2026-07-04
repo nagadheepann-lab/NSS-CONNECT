@@ -1,0 +1,6 @@
+{
+  "name": "NSS Connect",
+  "description": "Enterprise-grade NSS management portal featuring student trackers, volunteer loggers, event scanners, and coordinator dashboards with automated certificate and badge generation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

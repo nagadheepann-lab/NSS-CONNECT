@@ -1,0 +1,281 @@
+{
+  "coordinator_key": "COORD-SNUC-NSS",
+  "volunteer_key": "VOL-SNUC-NSS",
+  "users": [
+    {
+      "id": "u-coord-1",
+      "name": "Dr. Aditi Iyer",
+      "email": "aditiiyer@snuchennai.edu.in",
+      "password": "password123",
+      "department": "Computer Science & Engineering",
+      "rollNumber": "NSS-COORD-01",
+      "year": "Faculty",
+      "role": "Coordinator",
+      "profilePhoto": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=150&h=150&fit=crop&q=80",
+      "nssPoints": 620,
+      "attendancePct": 98,
+      "volunteerHours": 120,
+      "badges": [
+        "First Event",
+        "10 Points",
+        "50 Points",
+        "100 Points",
+        "250 Points",
+        "500 Points",
+        "Event Organizer",
+        "Top Volunteer"
+      ],
+      "certificates": [
+        "cert-1",
+        "cert-2"
+      ],
+      "createdAt": "2025-01-10T10:00:00Z",
+      "updatedAt": "2026-07-02T07:35:00-07:00",
+      "streak": 15
+    },
+    {
+      "id": "u-vol-1",
+      "name": "Rahul Dev",
+      "email": "rahuldev@snuchennai.edu.in",
+      "password": "password123",
+      "department": "Information Technology",
+      "rollNumber": "211101234",
+      "year": "III",
+      "role": "Volunteer",
+      "profilePhoto": "https://images.unsplash.com/photo-1570158268183-d296b2890212?w=150&h=150&fit=crop&q=80",
+      "nssPoints": 450,
+      "attendancePct": 94,
+      "volunteerHours": 85,
+      "badges": [
+        "First Event",
+        "10 Points",
+        "50 Points",
+        "100 Points",
+        "250 Points",
+        "Blood Hero",
+        "Green Warrior"
+      ],
+      "certificates": [
+        "cert-1"
+      ],
+      "createdAt": "2025-02-15T11:00:00Z",
+      "updatedAt": "2026-07-02T07:35:00-07:00",
+      "streak": 8
+    },
+    {
+      "id": "u-stud-1",
+      "name": "Sneha Ram",
+      "email": "sneharam@snuchennai.edu.in",
+      "password": "password123",
+      "department": "Electronics & Communication",
+      "rollNumber": "221102456",
+      "year": "II",
+      "role": "Student",
+      "profilePhoto": "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?w=150&h=150&fit=crop&q=80",
+      "nssPoints": 120,
+      "attendancePct": 88,
+      "volunteerHours": 24,
+      "badges": [
+        "First Event",
+        "10 Points",
+        "50 Points",
+        "100 Points"
+      ],
+      "certificates": [],
+      "createdAt": "2025-09-01T09:00:00Z",
+      "updatedAt": "2026-07-02T07:35:00-07:00",
+      "streak": 4
+    }
+  ],
+  "events": [
+    {
+      "id": "e-1",
+      "title": "Green Campus Tree Plantation Drive",
+      "description": "Join us in planting 200 saplings around the campus perimeter. This project supports SDG 15 (Life on Land) and will contribute to the campus green cover. Refreshments and tools will be provided.",
+      "banner": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800",
+      "venue": "SNU Chennai Sports Ground Outer Ring",
+      "date": "2026-07-05",
+      "time": "08:00 AM",
+      "duration": 3,
+      "category": "Environmental Protection",
+      "sdgGoal": "SDG 15 - Life on Land",
+      "maxParticipants": 150,
+      "volunteerIncharge": "Rahul Dev",
+      "registrationDeadline": "2026-07-04",
+      "status": "OPEN"
+    },
+    {
+      "id": "e-2",
+      "title": "Emergency Blood Donation Camp",
+      "description": "In collaboration with Rajiv Gandhi General Hospital, we are organizing a campus-wide blood donation drive. One unit of blood can save up to three lives. All donors receive a certificate and nutrient packets.",
+      "banner": "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=800",
+      "venue": "Campus Medical Centre Block B",
+      "date": "2026-07-02",
+      "time": "10:00 AM",
+      "duration": 5,
+      "category": "Health Awareness",
+      "sdgGoal": "SDG 3 - Good Health and Well-being",
+      "maxParticipants": 100,
+      "volunteerIncharge": "Rahul Dev",
+      "registrationDeadline": "2026-07-01",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "e-3",
+      "title": "Rural Primary Education Camp",
+      "description": "A 2-day workshop teaching basic English, Mathematics, and Computer skills to children in the neighboring Kalavakkam village. Transportation and teaching materials will be coordinated.",
+      "banner": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800",
+      "venue": "Kalavakkam Community Hall",
+      "date": "2026-07-12",
+      "time": "09:30 AM",
+      "duration": 8,
+      "category": "Social Service",
+      "sdgGoal": "SDG 4 - Quality Education",
+      "maxParticipants": 30,
+      "volunteerIncharge": "Aditi Iyer",
+      "registrationDeadline": "2026-07-10",
+      "status": "FULL"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a-1",
+      "title": "Annual NSS General Body Meeting 2026",
+      "content": "All NSS students, volunteers, and executives are required to attend the Annual Review Meeting this Friday. The agenda covers upcoming village adoptions, point allocation rules review, and the badge system overview.",
+      "date": "2026-07-01",
+      "category": "General",
+      "sender": "Dr. Aditi Iyer",
+      "targetRole": "All"
+    },
+    {
+      "id": "a-2",
+      "title": "Special Blood Donor Badges Now Live!",
+      "content": "We have updated our gamification metrics. Students donating blood in the upcoming drive will instantly unlock the \"Blood Hero\" badge and obtain 30 points automatically on verification. Keep up the high spirits!",
+      "date": "2026-06-30",
+      "category": "Updates",
+      "sender": "Dr. Aditi Iyer",
+      "targetRole": "Student"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg-1",
+      "eventId": "e-2",
+      "studentId": "u-stud-1",
+      "timestamp": "2026-06-28T09:00:00Z",
+      "status": "REGISTERED"
+    },
+    {
+      "id": "reg-2",
+      "eventId": "e-3",
+      "studentId": "u-stud-1",
+      "timestamp": "2026-06-29T10:15:00Z",
+      "status": "WAITLISTED"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "eventId": "e-2",
+      "eventTitle": "Emergency Blood Donation Camp",
+      "studentId": "u-stud-1",
+      "studentName": "Sneha Ram",
+      "studentRoll": "221102456",
+      "timestamp": "2026-07-02T10:15:00-07:00",
+      "status": "APPROVED",
+      "gpsLocation": {
+        "lat": 12.7513,
+        "lng": 80.1982,
+        "accuracy": 12
+      },
+      "device": "iPhone 15 Pro - Chrome Browser",
+      "verifiedBy": "Rahul Dev",
+      "qrCodeSignature": "QR-SIGN-E2-STD1-VALID"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "studentId": "u-stud-1",
+      "studentName": "Sneha Ram",
+      "eventTitle": "Coastal Clean-up Drive 2025",
+      "hours": 6,
+      "qrVerificationCode": "VERIFY-C-9843-XY2",
+      "uniqueId": "NSS-2025-C09843",
+      "issueDate": "2025-11-20"
+    },
+    {
+      "id": "cert-2",
+      "studentId": "u-vol-1",
+      "studentName": "Rahul Dev",
+      "eventTitle": "Coastal Clean-up Drive 2025",
+      "hours": 10,
+      "qrVerificationCode": "VERIFY-C-7231-AB9",
+      "uniqueId": "NSS-2025-V07231",
+      "issueDate": "2025-11-20"
+    }
+  ],
+  "point_rules": [
+    {
+      "id": "r1",
+      "name": "Attend Event",
+      "key": "attendEvent",
+      "points": 10,
+      "description": "Points awarded for general event attendance"
+    },
+    {
+      "id": "r2",
+      "name": "Volunteer",
+      "key": "volunteer",
+      "points": 20,
+      "description": "Points awarded for volunteering support"
+    },
+    {
+      "id": "r3",
+      "name": "Organize Event",
+      "key": "organizeEvent",
+      "points": 40,
+      "description": "Points awarded for core event organization"
+    },
+    {
+      "id": "r4",
+      "name": "Blood Donation",
+      "key": "bloodDonation",
+      "points": 30,
+      "description": "Points awarded for active blood donation drives"
+    },
+    {
+      "id": "r5",
+      "name": "Tree Plantation",
+      "key": "treePlantation",
+      "points": 25,
+      "description": "Points awarded per tree planted and logged"
+    },
+    {
+      "id": "r6",
+      "name": "Special Recognition",
+      "key": "specialRecognition",
+      "points": 50,
+      "description": "Points awarded for outstanding NSS contributions"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-07-01T09:30:00Z",
+      "operator": "Dr. Aditi Iyer",
+      "action": "CREATED_EVENT",
+      "details": "Created event \"Green Campus Tree Plantation Drive\" (e-1) scheduled for 2026-07-05.",
+      "type": "EVENT"
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-07-02T07:35:00-07:00",
+      "operator": "Rahul Dev",
+      "action": "APPROVED_ATTENDANCE",
+      "details": "Approved attendance scanner upload for student Sneha Ram (221102456) in Emergency Blood Donation Camp (e-2).",
+      "type": "ATTENDANCE"
+    }
+  ],
+  "initialized": true
+}
